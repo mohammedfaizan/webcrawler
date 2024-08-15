@@ -1,0 +1,26 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammedfaizan/webcrawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammedfaizan/webcrawler/issues"
+  },
+  "homepage": "https://github.com/mohammedfaizan/webcrawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
